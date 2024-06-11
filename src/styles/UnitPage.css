@@ -1,0 +1,106 @@
+/* src/styles/UnitPage.css */
+.unit-page {
+    background-color: #f5f5dc;
+  }
+  
+  .content-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .title-container {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .unit-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #4CAF50; /* Dark green color */
+    text-shadow: 0 0 20px rgba(76, 175, 80, 0.5); /* Add pulsing effect */
+    animation: pulse 2s infinite alternate;
+  }
+  
+  .unit-description {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .media-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
+  
+  .video-link a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .video-link a:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .quiz-container {
+    margin-top: 40px;
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(1);
+      color: #4CAF50; /* Dark green color */
+      text-shadow: 0 0 20px rgba(76, 175, 80, 0.5);
+    }
+    to {
+      transform: scale(1.1);
+      color: #8BC34A; /* Light green color */
+      text-shadow: 0 0 30px rgba(139, 195, 74, 0.7);
+    }
+  }
+
+  /* src/styles/UnitPage.css */
+.quiz-box {
+    background-color: #D8F1D0; /* Light green background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* src/styles/UnitPage.css */
+/* src/styles/UnitPage.css */
+.sub-section {
+    margin-bottom: 40px;
+  }
+  
+  .sub-section h2 {
+    margin-bottom: 10px;
+  }
+  
+  .image-container {
+    width: 100%;
+    height: 300px; /* Increase height as needed */
+    background-color: #f5f5dc;
+    border-radius: 5px;
+    overflow: hidden; /* Ensure that the image doesn't overflow the container */
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure that the image covers the entire container */
+  }
+  
+/* src/styles/UnitPage.css */
+.unit-page p {
+    color: #333; /* Dark green color */
+    font-weight: bold; /* Make the text bold */
+  }
+    

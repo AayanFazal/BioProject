@@ -1,0 +1,37 @@
+/* src/styles/Home.css */
+.home-container {
+    text-align: center;
+    padding: 50px;
+    height: 100vh; /* Set height to 100% of viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center content */
+    background-color: #f5f5dc; /* Beige background color */
+  }
+  
+  .title {
+    font-size: 4rem; /* Increased font size */
+    font-weight: bold;
+    color: #4CAF50; /* Green color for energy */
+    text-shadow: 0 0 20px rgba(76, 175, 80, 0.5); /* Add a subtle shadow */
+    animation: pulse 2s infinite alternate; /* Apply pulsing animation */
+  }
+  
+  .description {
+    font-size: 1.5rem; /* Increased font size */
+    margin-top: 20px;
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(1);
+      color: #4CAF50; /* Green color */
+      text-shadow: 0 0 20px rgba(76, 175, 80, 0.5);
+    }
+    to {
+      transform: scale(1.1);
+      color: #8BC34A; /* Light green color */
+      text-shadow: 0 0 30px rgba(139, 195, 74, 0.7); /* Increase shadow intensity */
+    }
+  }
+  
